@@ -1,0 +1,484 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Demo</title>
+    <style>
+        table {
+        border-collapse: collapse;
+    }
+       .ca{
+        margin: 0px;
+        padding: 0px;
+       }
+    </style>
+</head>
+
+<body style="font-family: Arial, sans-serif; margin: 20px;">
+    &copy;溺水的鱼
+    <h1 style="text-align: center; color: #333;">html</h1>
+    <br> 
+    #标签标签: h1~h6
+    <h1 style="color: #333;">h1标签</h1>
+    <h2 style="color: #444;">h2标签</h2>
+    <h3 style="color: #555;">h3标签</h3>
+    <h4 style="color: #666;">h4标签</h4>
+    <h5 style="color: #777;">h5标签</h5>
+    <h6 style="color: #888;">h6标签</h6>
+    <hr style="margin: 15px 0;">
+    #段落标签:p
+    <p style="width: 250px; background-color: #e0bfbf; padding: 10px; border-radius: 5px;">文本在一个区块中会根据窗口大小自动换行</p>
+    <p style="margin-top: 10px;">段落和段落之间有空格</p>
+    <hr style="margin: 15px 0;">
+    #换行标签:br
+    <p>尼克 <br> 泰坦</p>
+    <p style="color: red; margin-top: 10px;">换行标签只是简单地开始新的一行，跟段落不一样，段落之间会插入一些垂直的间距。</p>
+    <hr style="margin: 15px 0;">
+    #盒子标签：span and div
+    <div style="background-color: aqua; padding: 10px; border-radius: 5px; margin-bottom: 10px;">一行只能放一个div</div>
+    <div style="background-color: rgb(216, 203, 102); padding: 10px; border-radius: 5px;">一个div</div>
+    <span style="background-color: rgb(105, 226, 78); padding: 5px; border-radius: 3px;">一行可以多个span</span>
+    <span style="background-color: rgb(55, 152, 97); padding: 5px; border-radius: 3px; margin-left: 10px;">多个span</span>
+    <hr style="margin: 15px 0;">
+    #排版标签
+    <p> <b>b和strong文字以粗体显示</b></p>
+    <p><i>i和em 文字以斜体显示</i></p>
+    <p><s>s和del 文字以加删除线显示</s></p>
+    <p><u>u和ins 文字以加下划线显示</u></p>
+    <hr style="margin: 15px 0;">
+    #图像标签
+    <br>
+    <img src="./img/137212737.jpg" width="450px" height="300px" style="float: left; margin-right: 20px; border-radius: 5px;">
+    <table border="1" style="float: left; border-collapse: collapse;">
+        <tr>
+            <th style="padding: 10px;">属性</th>
+            <th style="padding: 10px;">属性值</th>
+            <th style="padding: 10px;">描述</th>
+        </tr>
+        <tr>
+            <td style="padding: 10px;">src</td>
+            <td style="padding: 10px;">URL</td>
+            <td style="padding: 10px;">图像路径</td>
+        </tr>
+        <tr>
+            <td style="padding: 10px;">alt</td>
+            <td style="padding: 10px;">文本</td>
+            <td style="padding: 10px;">图像不能显示时的替换文本</td>
+        </tr>
+        <tr>
+            <td style="padding: 10px;">title</td>
+            <td style="padding: 10px;">文本</td>
+            <td style="padding: 10px;">鼠标悬停时显示的内容</td>
+        </tr>
+        <tr>
+            <td style="padding: 10px;">border</td>
+            <td style="padding: 10px;">数字</td>
+            <td style="padding: 10px;">设置图像边框的宽度</td>
+        </tr>
+    </table>
+    <hr style="clear: both; margin: 15px 0;">
+    #超链接标签
+    <br>
+    <a href="#" style="color: #007BFF;">a标签 </a>
+    <br>
+    <a href="#" style="color: red; margin-top: 10px; display: inline-block;">文本、图像、表格、音频、视频等都可以添加超链接</a>
+    <hr style="margin: 15px 0;">
+    #表格标签
+    <p>table、tr、td，他们是创建表格的基本标签，缺一不可</p>
+    <!-- <ul style="margin-bottom: 20px;">
+        <li>table用于定义一个表格标签。</li>
+        <li>tr标签 用于定义表格中的<span style="color: red;">行</span>，必须嵌套在 table标签中。</li>
+        <li>td 用于<span style="color: red;">定义单元格的内容</span>，必须嵌套在< tr>< /tr>标签中。 现在我们明白，表格最合适的地方就是用来存储数据的。td像一个容器，可以容纳所有的元素。</li>
+        <li>th指表头单元格里面的文本加粗并且居中显示.即<span style="color: red;">标题</span>。</li>
+    </ul> -->
+    <table border="1" style="border-collapse: collapse; margin-top: 20px;">
+        <tr>
+            <caption>表格汇总</caption>
+        </tr>
+        <tr>
+            <th>标签名</th>
+            <th>定义</th>
+            <th>说明</th>
+        </tr>
+        <tr>
+            <td>table</td>
+            <td>表格标签</td>
+            <td>就是一个四方盒子</td>
+        </tr>
+        <tr>
+            <td>tr</td>
+            <td>表格行标签</td>
+            <td>在table标签内部才有意义</td>
+        </tr>
+        <tr>
+            <td>td</td>
+            <td>单元格标签</td>
+            <td>一个容器标签，可以放任何东西</td>
+        </tr>
+        <tr>
+            <td>th</td>
+            <td>表头单元格标签</td>
+            <td>本质是单元格，里面的文字会居中且加粗</td>
+        </tr>
+        <tr>
+            <td>clospan 和 rowspan</td>
+            <td>合并属性</td>
+            <td>用来合并单元格</td>
+        </tr>
+        <tr>
+            <td>caption</td>
+            <td>表格标题标签</td>
+            <td>和表格居中对齐</td>
+        </tr>
+    </table>
+    <br>
+    <table border="1" style=" border-collapse: collapse;">
+        <tr>
+            <caption>标题</caption>
+        </tr>
+        <tr>
+            <th style="padding: 10px;">th表头单元格</th>
+            <th style="padding: 10px;">th表头单元格</th>
+            <th style="padding: 10px;">th表头单元格</th>
+        </tr>
+        <tr>
+            <th style="padding: 10px;">th表头单元格</th>
+            <td style="padding: 10px;">td标签</td>
+            <td style="padding: 10px;">td标签</td>
+        </tr>
+        <tr>
+            <th style="padding: 10px;">th表头单元格</th>
+            <td style="padding: 10px;">td标签</td>
+            <td style="padding: 10px;">td标签</td>
+        </tr>
+    </table>
+    <img src="https://i-blog.csdnimg.cn/blog_migrate/9f3399e0fb8ac5e106b0174aa8734c71.png" style="float: left; margin-right: 20px; border-radius: 5px;" width="450px" height="250px">
+    <img src="https://i-blog.csdnimg.cn/blog_migrate/3d4f67874a8a40644d9fe9dcc9156103.png" alt="" style="float: left; border-radius: 5px;" width="450px" height="250px">
+
+    <br>
+    
+    <table border="1" style="border-collapse: collapse; margin-top: 20px; clear: both;">
+        <tr>
+            <caption>table属性</caption>
+        </tr>
+        <tr>
+            <th style="padding: 10px;">属性名</th>
+            <th style="padding: 10px;">属性值</th>
+            <th style="padding: 10px;">描述</th>
+        </tr>
+        <tr>
+            <td style="padding: 10px;">border</td>
+            <td style="padding: 10px;">1 or “ ”</td>
+            <td style="padding: 10px;">规定表格是否有边框。1有，“ ”无</td>
+        </tr>
+        <tr>
+            <td style="padding: 10px;">align</td>
+            <td style="padding: 10px;">left、center、right</td>
+            <td style="padding: 10px;">规定表格相对周围元素的对齐方式</td>
+        </tr>
+        <tr>
+            <td>style="border-collapse: collapse;"</td>
+            <td colspan="2" style="text-align: center;">（行内样式）直线边框</td>
+            <td></td>
+        </tr>
+    </table>
+    <br>
+    <p style="margin: 20px 0 10px 0; padding: 0;">  合并单元格</p>
+    <p style="margin-bottom: 10px;">&nbsp;&nbsp;&nbsp;&nbsp;1.合并单元格三部曲</p>
+    <ul style="margin-bottom: 20px;">
+        <li>先确定跨行还是跨列合并</li>
+        <img src="https://i-blog.csdnimg.cn/blog_migrate/8ed7092c07785a11e5bfa87dd6390377.png" alt="" width="450" height="150">
+        <li>找到目标单元格，写上合并方式=合并的单元格数量。比如：< td colspan="2" >< /td ></li>
+        <li>删除多余的单元格 </li>
+    </ul>
+    <!-- 语法：
+    <ul style="margin-bottom: 20px;">
+        <li>跨行合并：rowspan="合并单元格的个数"</li>
+        <li>跨列合并：colspan="合并单元格的个数"</li>
+    </ul> -->
+    <table border="1" style="border-collapse: collapse;" >
+        <tr><caption>2.合并语法</caption></tr>
+        <tr>
+            <td>合并方式</td>
+            <td style="text-align: center;">语法</td>
+        </tr>
+        <tr>
+            <td>跨行合并</td>
+            <td>rowspan="合并单元格的个数"</td>
+        </tr>
+        <tr>
+            <td>跨列合并</td>
+            <td>colspan="合并单元格的个数"</td>
+        </tr>
+    </table>
+    <br>
+    <!-- 怎么找到目标单元格？
+    <p style="margin-bottom: 10px;">目标单元格：(写合并代码)</p>
+    <ul style="margin-bottom: 20px;">
+        <li>跨行的目标单元格：最上侧单元格为目标单元格</li>
+        <li>跨列的目标单元格：最左侧单元格为目标单元格</li>
+    </ul> -->
+    <p>示例：</p>
+    <p>1.跨行合并:</p>
+    <table border="1" style=" float: left; margin: 0 20px; border-collapse: collapse;">
+        <tr>
+            <td style="padding: 10px;">1</td>
+            <td style="padding: 10px;">1</td>
+        </tr>
+        <tr>
+            <td style="padding: 10px;">2</td>
+            <td style="padding: 10px;">1</td>
+        </tr>
+        <tr>
+            <td style="padding: 10px;">3</td>
+            <td style="padding: 10px;">1</td>
+        </tr>
+        <tr>
+            <td style="padding: 10px;">4</td>
+            <td style="padding: 10px;">1</td>
+        </tr>
+    </table>
+    
+    <table border="1" style=" float: left; margin: 0 20px; border-collapse: collapse;">
+        <tr>
+            <td style="padding: 10px;"  rowspan="4">1</td>
+            <td style="padding: 10px;">1</td>
+        </tr>
+        <tr>
+            <!-- <td style="padding: 10px;"  rowspan="3">2</td> -->
+            <td style="padding: 10px;">1</td>
+        </tr>
+        <tr>
+            <!-- <td style="padding: 10px;">3</td> -->
+            <td style="padding: 10px;">1</td>
+        </tr>
+        <tr>
+            <!-- <td style="padding: 10px;">4</td> -->
+            <td style="padding: 10px;">1</td>
+        </tr>
+    </table>
+    <p style="clear: both;">2.跨列合并:</p>
+    <table border="1" style=" float: left; margin: 0 20px; border-collapse: collapse;">
+        <tr>
+            <td style="padding: 10px;">1</td>
+            <td style="padding: 10px;">1</td>
+            <td style="padding: 10px;">1</td>
+            <td style="padding: 10px;">1</td>
+
+        </tr>
+        <tr>
+            <td style="padding: 10px;">2</td>
+            <td style="padding: 10px;">1</td>
+            <td style="padding: 10px;">1</td>
+            <td style="padding: 10px;">1</td>
+
+        </tr>
+        <tr>
+            <td style="padding: 10px;">3</td>
+            <td style="padding: 10px;">1</td>
+            <td style="padding: 10px;">1</td>
+            <td style="padding: 10px;">1</td>
+
+        </tr>
+        <tr>
+            <td style="padding: 10px;">4</td>
+            <td style="padding: 10px;">1</td>
+            <td style="padding: 10px;">1</td>
+            <td style="padding: 10px;">1</td>
+
+        </tr>
+    </table>
+    <table border="1" style=" float: left; margin: 0 20px; border-collapse: collapse;">
+        <tr>
+            <td style="padding: 10px; text-align: center;" colspan="4">1</td>
+            <!-- <td style="padding: 10px;">1</td> -->
+            <!-- <td style="padding: 10px;">1</td> -->
+            <!-- <td style="padding: 10px;">1</td> -->
+
+        </tr>
+        <tr>
+            <td style="padding: 10px;">2</td>
+            <td style="padding: 10px;">1</td>
+            <td style="padding: 10px;">1</td>
+            <td style="padding: 10px;">1</td>
+
+        </tr>
+        <tr>
+            <td style="padding: 10px;">3</td>
+            <td style="padding: 10px;">1</td>
+            <td style="padding: 10px;">1</td>
+            <td style="padding: 10px;">1</td>
+
+        </tr>
+        <tr>
+            <td style="padding: 10px;">4</td>
+            <td style="padding: 10px;">1</td>
+            <td style="padding: 10px;">1</td>
+            <td style="padding: 10px;">1</td>
+        </tr>
+    </table>
+   <hr  style="clear: both;">
+    <p>#列表:</p>
+    <ol>
+        <li>无序列表ul:</li>
+        <ol reversed type="I">
+            <li>< ul>< /ul>中只能嵌套< li>< /li>，直接在< ul>< /ul>标签中输入其他标签或者文字的做法是不被允许的。</li>
+            <li>< li>与< /li>之间相当于一个容器，可以容纳所有元素。</li>
+        </ol>
+        <li>有序列表ol</li>
+        <ol type="a">
+            <li>< ol>标签中的type属性值为排序的序列号，不添加type属性时，有序列表默认从数字1开始排序。</li>
+            <li>常用的type属性值分别为是1，a，A，i，I</li>
+            <li>< ol reversed=“reversed”>中的reversed属性能够让有序列表中的序列倒序排列。</li>
+            <li>< ol start=“3”>中的start属性值为3，有序列表中的第一个序列号将从3开始排列。</li>
+        </ol>
+        <li>自定义列表dl</li>
+        <dl>
+            <dt>dt标签</dt>
+            <dd>dd标签</dd>
+            <dd>dd标签</dd>
+            <dd>dd标签</dd>
+        </dl>
+    </oi>
+    <hr>
+    <p style="margin-left: -40px;">#表单设计：</p>
+    <table border="0" cellspacing="0" cellpadding="10" style="border-collapse: collapse; width: 80%; margin: 0 auto; font-family: Arial, sans-serif;">
+        <tr style="background-color: #f2f2f2;">
+            <th style="border: 1px solid #ddd; text-align: left;">表单域</th>
+            <th style="border: 1px solid #ddd; text-align: left;">表单控件</th>
+            <th style="border: 1px solid #ddd; text-align: left;">属性</th>
+            <th style="border: 1px solid #ddd; text-align: left;">属性值</th>
+            <th style="border: 1px solid #ddd; text-align: left;">描述</th>
+        </tr>
+        <tr>
+            <td rowspan="12" style="border: 1px solid #ddd;">form</td>
+            <td rowspan="12" style="border: 1px solid #ddd;">input</td>
+            <td rowspan="8" style="border: 1px solid #ddd;">type</td>
+            <td style="border: 1px solid #ddd;">text</td>
+            <td style="border: 1px solid #ddd;">单行文本输入框</td>
+        </tr>
+        <tr>
+            <td style="border: 1px solid #ddd;">password</td>
+            <td style="border: 1px solid #ddd;">密码输入框</td>
+        </tr>
+        <tr>
+            <td style="border: 1px solid #ddd;">radio</td>
+            <td style="border: 1px solid #ddd;">单选按钮</td>
+        </tr>
+        <tr>
+            <td style="border: 1px solid #ddd;">checkbox</td>
+            <td style="border: 1px solid #ddd;">复选框</td>
+        </tr>
+        <tr>
+            <td style="border: 1px solid #ddd;">file</td>
+            <td style="border: 1px solid #ddd;">上传文件</td>
+        </tr>
+        <tr>
+            <td style="border: 1px solid #ddd;">submit</td>
+            <td style="border: 1px solid #ddd;">提交按钮</td>
+        </tr>
+        <tr>
+            <td style="border: 1px solid #ddd;">reset</td>
+            <td style="border: 1px solid #ddd;">重置按钮</td>
+        </tr>
+        <tr>
+            <td style="border: 1px solid #ddd;">button</td>
+            <td style="border: 1px solid #ddd;">普通按钮</td>
+        </tr>
+        <tr>
+            <td style="border: 1px solid #ddd;">name</td>
+            <td style="border: 1px solid #ddd;">由用户自定义</td>
+            <td style="border: 1px solid #ddd;">控件的名称相同可实现单选的效果</td>
+        </tr>
+        <tr>
+            <td style="border: 1px solid #ddd;">value</td>
+            <td style="border: 1px solid #ddd;">由用户自定义</td>
+            <td style="border: 1px solid #ddd;">input 控件中的默认文本值</td>
+        </tr>
+        <tr>
+            <td style="border: 1px solid #ddd;">size</td>
+            <td style="border: 1px solid #ddd;">正整数</td>
+            <td style="border: 1px solid #ddd;">input 控件在页面中的显示宽度</td>
+        </tr>
+        <tr>
+            <td style="border: 1px solid #ddd;">checked</td>
+            <td style="border: 1px solid #ddd;">checked</td>
+            <td style="border: 1px solid #ddd;">定义选择控件默认被选中的项</td>
+        </tr>
+    </table>
+    <br>
+    <form action="" name="ni">
+        <input type="text" value="这是一个文本输入框(value效果，size=40)" size="40px">
+        <br><br>
+        <input type="text" placeholder="这是一个文本输入框(placeholder效果)" size="30px">
+        <br>
+        <br>
+        <input type="password" placeholder="这是一个密码箱">
+        <br>
+        <br>
+        <p>认知解忧铺</p>
+        <input type="radio" name="abc" checked id="f">
+        <label for="f">现代神经科学</label>
+        <label for="w">
+            <input type="radio" name="abc" id="w">认知心理学
+        </label>
+
+        
+        <br><br>
+        <input type="checkbox" id="a">
+        <label for="a">经济学</label>
+
+        <input type="checkbox" id="b">
+        <label for="b">哲学</label>
+        <br><br>
+        <input type="file">
+        
+        
+        <br><br>
+        <input type="submit">提交按钮-submit
+        <br><br>
+        <input type="reset">重置按钮-reset
+        <br><br>
+        <input type="button">普通按钮-button
+        <br><br>  
+    </form>
+    <p>下拉效果</p>
+    <table border="1">
+        <tr>
+            <th>下拉菜单整体</th>
+            <th>下拉菜单每一项</th>
+            <th>属性</th>
+            <th>属性值</th>
+            <th>描述</th>
+        </tr>
+        <tr>
+            <td>select</td>
+            <td>option</td>
+            <td>selected</td>
+            <td>selected</td>
+            <td>默认选择</td>
+        </tr>
+    </table>
+    <br><br>
+    <select name="" id="">
+        <option value="">东厂</option>
+        <option value="" selected>西厂</option>
+        <option value="">北厂</option>
+        <option value="">南厂</option>
+    </select>
+    <p>文本域效果</p>
+    <textarea name="" id="" value="textarea"> textarea</textarea>
+    <p>扩大互动效果</p>
+    <input type="radio" id="q" name="qi">
+    <label for="q">label(点击文字试试)</label>   
+    <br> 
+    <input type="radio" id="qq" name="qi">
+    <label for="qq">欲想达到此效果</label> 
+    <br>
+    <input type="radio" id="qe" name="qi">
+    <label for="qe">需保持&nbsp;label的for跟input的id保持一致</label> 
+    <p>本章完</p>
+</body>
+</html>
